@@ -67,10 +67,11 @@ def softmax_a(scores):
 
 def softmax_b(scores):
     """
-    Functional Programming(Imitate)
+    Functional Programming(Not totally)
     """
-    total = reduce(lambda x, y: x + y, map(math.exp, scores))
-    return list(map(lambda s: s / total, map(math.exp, scores)))
+    exp_scores = list(map(math.exp, scores))
+    total = reduce(lambda x, y: x + y, exp_scores)
+    return [s / total for s in exp_scores]
 
 
 neure = [0, -2, 3, 4, -3]
