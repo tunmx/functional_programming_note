@@ -5,7 +5,7 @@ Review all the definitions of "programming paradigm" we covered in "2. Introduct
 
 As a result please attach a link to a Google Document (or attach a file) with the explanation of the new paradigm.
 
-##### student: YanJingyu
+##### student: Jingyu Yan
 
 ### Functional Programming (FP)
 
